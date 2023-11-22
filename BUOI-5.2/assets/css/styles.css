@@ -1,0 +1,94 @@
+/* Reset Browser */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Code tai su dung */
+.container {
+  width: 90%;
+  margin: auto;
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.column {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Set kich thuoc colum */
+.column-4 {
+  width: calc(100% / 4);
+}
+.column-5 {
+  width: calc(100% / 5);
+}
+
+/* Main content./Start */
+.main-content {
+  width: 100%;
+}
+
+/* Product Hot./Start */
+.product-hot {
+  padding-top: 100px;
+}
+.content {
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+}
+.content .box-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.content .box-description {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header./Start */
+.header {
+  width: 100%;
+  height: 90px;
+  background-color: green;
+}
+
+/* Footer./Start */
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  color: #fff;
+}
